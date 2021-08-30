@@ -39,7 +39,7 @@ const count = setInterval(() => {
     accion.run(accion.args);
   }
 
-}, 100);
+}, 250);
 
 export function reset() {
   acciones.push({
@@ -303,7 +303,6 @@ export function aparecerCultivo(lugar: string, cultivo: string) {
 function aparecerCultivoPrivado(args) {
   const lugar = args.lugar;
   const cultivo = args.cultivo;
-  console.log(`${HOST}${RUTAS.HUERTO_APARECER}/${lugar}/${cultivo}`);
   
   axios
   .post(`${HOST}${RUTAS.HUERTO_APARECER}/${lugar}/${cultivo}`, {})

@@ -9,12 +9,10 @@ iniciar();
 
 function moverAHuerto() {
 
+  girarIzquierda();
   moverIzquierda();
   moverIzquierda();
   moverIzquierda();
-  moverIzquierda(); 
-  moverIzquierda(); 
-  moverIzquierda(); 
   moverIzquierda(); 
   moverIzquierda(); 
   moverIzquierda(); 
@@ -26,9 +24,7 @@ function moverAHuerto() {
   moverIzquierda(); 
   moverIzquierda(); 
 
-  moverArriba();
-  moverArriba();
-  moverArriba();
+  girarArriba();
   moverArriba();
   moverArriba();
   moverArriba();
@@ -43,8 +39,7 @@ function moverAHuerto() {
   moverArriba();
   moverArriba();
 
-  moverIzquierda();
-  moverIzquierda();
+  girarIzquierda();
   moverIzquierda();
   moverIzquierda();
   moverIzquierda();

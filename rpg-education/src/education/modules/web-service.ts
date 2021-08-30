@@ -53,8 +53,12 @@ export function middleware(app, education) {
   });
 
   app.post('/personaje/mover/izquierda', (req, res) => {
-    const actions = education.driver.actions();
-    actions.keyDown(Key.ARROW_LEFT).pause(50).keyUp(Key.ARROW_LEFT).perform();
+    // const actions = education.driver.actions();
+    // actions.keyDown(Key.ARROW_LEFT).pause(50).keyUp(Key.ARROW_LEFT).perform();
+    const players = RpgWorld.getPlayers()
+
+    players.forEach(player => player.moveRoutes([ Move.left(4) as any ]) )
+    //  Move.left(4) = 4 times the speed of the character (if the speed is 3 then it will move 12px)
     res.send();
   });
 
@@ -71,8 +75,11 @@ export function middleware(app, education) {
   });
 
   app.post('/personaje/mover/arriba', (req, res) => {
-    const actions = education.driver.actions();
-    actions.keyDown(Key.ARROW_UP).pause(50).keyUp(Key.ARROW_UP).perform();
+    const players = RpgWorld.getPlayers()
+
+    players.forEach(player => player.moveRoutes([ Move.up(4) as any ]) )
+    // const actions = education.driver.actions();
+    // actions.keyDown(Key.ARROW_UP).pause(50).keyUp(Key.ARROW_UP).perform();
     res.send();
   });
 

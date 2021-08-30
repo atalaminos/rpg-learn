@@ -1,24 +1,23 @@
 import { iniciar, finalizar } from './niveles/nivel4'
-import { moverArriba, moverIzquierda, girarArriba, recolectar } from './utilidades/acciones';
+import { moverArriba, moverIzquierda, girarArriba, recolectar, girarIzquierda } from './utilidades/acciones';
 iniciar();
 
 /*
   Recolecta la lechuga del huerto. Utiliza los siguientes verbos:
   - moverArriba
-  - moverIzquierda
   - girarArriba
+  - moverIzquierda
+  - girarIzquierda
   - recolectar
 
 /** */
 
 function moverALechuga() {
 
+  girarIzquierda();
   moverIzquierda();
   moverIzquierda();
   moverIzquierda();
-  moverIzquierda(); 
-  moverIzquierda(); 
-  moverIzquierda(); 
   moverIzquierda(); 
   moverIzquierda(); 
   moverIzquierda(); 
@@ -30,9 +29,7 @@ function moverALechuga() {
   moverIzquierda(); 
   moverIzquierda(); 
 
-  moverArriba();
-  moverArriba();
-  moverArriba();
+  girarArriba();
   moverArriba();
   moverArriba();
   moverArriba();
@@ -47,10 +44,7 @@ function moverALechuga() {
   moverArriba();
   moverArriba();
 
-  moverIzquierda();
-  moverIzquierda();
-  moverIzquierda();
-  moverIzquierda();
+  girarIzquierda();
   moverIzquierda();
   moverIzquierda();
   moverIzquierda();

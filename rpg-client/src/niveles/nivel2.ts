@@ -10,8 +10,6 @@ export const finalizar = (contexto: any) => {
 
   acciones.obtenerPosicion((x, y) => {
 
-    console.log(x, y);
-
     if ((x >= 65) && (x <= 210) && (y >= 128) && (y <= 278)) {
       acciones.enviarMensaje('¡Nivel superado!')
     }
