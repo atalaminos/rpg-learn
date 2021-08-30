@@ -1,0 +1,456 @@
+{
+	"info": {
+		"_postman_id": "39f632d3-6824-405c-9f61-c43db3c7c8ea",
+		"name": "education",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/menu/inventario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/menu/inventario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"menu",
+						"inventario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/menu/inventario",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/menu/inventario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"menu",
+						"inventario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/menu/inventario/elemento",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/menu/inventario/elemento/pocion/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"menu",
+						"inventario",
+						"elemento",
+						"pocion",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/menu/inventario/elemento",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/menu/inventario/elemento/pocion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"menu",
+						"inventario",
+						"elemento",
+						"pocion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/menu/inventario/elemento (all)",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/menu/inventario/elemento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"menu",
+						"inventario",
+						"elemento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/posicion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/posicion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"posicion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/mover/izquierda",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/mover/izquierda",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"mover",
+						"izquierda"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/girar/izquierda",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/girar/izquierda",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"girar",
+						"izquierda"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/mover/derecha",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/mover/derecha",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"mover",
+						"derecha"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/girar/derecha",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/girar/derecha",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"girar",
+						"derecha"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/mover/arriba",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/mover/arriba",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"mover",
+						"arriba"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/girar/arriba",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/girar/arriba",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"girar",
+						"arriba"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/mover/abajo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/mover/abajo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"mover",
+						"abajo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/girar/abajo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/girar/abajo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"girar",
+						"abajo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/comprobar/cultivo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/comprobar/cultivo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"comprobar",
+						"cultivo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/sembrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/sembrar/zanahoria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"sembrar",
+						"zanahoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/recolectar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/cultivar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"cultivar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/huerto/aparecer/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/huerto/aparecer/h1/zanahoria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"huerto",
+						"aparecer",
+						"h1",
+						"zanahoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/huerto/desaparecer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/huerto/desaparecer/h1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"huerto",
+						"desaparecer",
+						"h1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/reset",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/reset",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"reset"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/mensaje",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "msg",
+							"value": "asd",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/mensaje",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mensaje"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
