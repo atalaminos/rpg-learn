@@ -4,7 +4,8 @@ const { RMSpritesheet } = Presets
 
 @Spritesheet({
     images: {
-        male1_2: require('./assets/personaje.png')
+        male1_2: require('./assets/hombre.png'),
+        woman1_2: require('./assets/mujer.png')
     },
     width: 96,
     height: 128,

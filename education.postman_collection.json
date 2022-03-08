@@ -132,6 +132,46 @@
 			"response": []
 		},
 		{
+			"name": "/personaje/hombre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/hombre",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"hombre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/personaje/mujer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personaje/mujer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personaje",
+						"mujer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "/personaje/mover/izquierda",
 			"request": {
 				"method": "POST",
@@ -347,7 +387,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/personaje/cultivar",
+					"raw": "http://localhost:3000/personaje/recolectar",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -355,7 +395,7 @@
 					"port": "3000",
 					"path": [
 						"personaje",
-						"cultivar"
+						"recolectar"
 					]
 				}
 			},

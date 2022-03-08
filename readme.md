@@ -2,6 +2,9 @@
 
 ## Rpg-education
 
+- Requirements:
+	- Node.js < 15.0
+
 - Instructions:
 
 ```bash
@@ -17,6 +20,7 @@ npm run dev
 ```bash
 cd rpg-client
 npm install
+tsc
 cd dist
 node nivel1.js
 ```

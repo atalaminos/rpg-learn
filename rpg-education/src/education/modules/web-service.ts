@@ -37,6 +37,20 @@ export function middleware(app, education) {
     res.send();
   });
 
+  app.get('/personaje/hombre', (req, res) => {
+    RpgWorld.getPlayers().forEach(player => {
+      player.setGraphic('male1_2');
+    });
+    res.send(``);
+  });
+
+  app.get('/personaje/mujer', (req, res) => {
+    RpgWorld.getPlayers().forEach(player => {
+      player.setGraphic('woman1_2');
+    });
+    res.send(``);
+  })
+
   app.get('/personaje/posicion', (req, res) => {
     let x,y;
     RpgWorld.getPlayers().forEach(player => {

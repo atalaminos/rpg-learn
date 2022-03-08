@@ -8,6 +8,8 @@ const RUTAS = {
     MENU_INVENTARIO: "/menu/inventario",
     MENU_INVENTARIO_ELEMENTO: "/menu/inventario/elemento",
     PERSONAJE_POSICION: "/personaje/posicion", 
+    PERSONAJE_HOMBRE: "/personaje/hombre", 
+    PERSONAJE_MUJER: "/personaje/mujer", 
     PERSONAJE_ACCION: "/personaje/accion", 
     PERSONAJE_MOVER_IZQUIERDA: "/personaje/mover/izquierda",
     PERSONAJE_GIRAR_IZQUIERDA: "/personaje/girar/izquierda",
@@ -30,7 +32,7 @@ let exit = false;
 
 const count = setInterval(() => {
   const accion = acciones.shift();
-
+  
   if ((exit) && (acciones.length === 0)) {
     clearInterval(count);
   }
@@ -153,6 +155,14 @@ function obtenerPosicionPrivado(args) {
 
     if (cb) cb(x, y)
   });
+} 
+
+export function cambiarPersonajeMujer() {
+  axios.get(`${HOST}${RUTAS.PERSONAJE_MUJER}`, {}).then();
+} 
+
+export function cambiarPersonajeHombre() {
+  axios.get(`${HOST}${RUTAS.PERSONAJE_HOMBRE}`, {}).then();
 } 
 
 export function moverIzquierda() {
