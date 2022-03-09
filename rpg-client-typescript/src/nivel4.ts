@@ -9,8 +9,7 @@ iniciar();
   - moverIzquierda
   - girarIzquierda
   - recolectar
-
-/** */
+*/
 
 function moverALechuga() {
 
@@ -65,7 +64,7 @@ function moverALechuga() {
 moverALechuga();
 recolectar();
 
-/** */
+/* */
 finalizar(this);
 
 

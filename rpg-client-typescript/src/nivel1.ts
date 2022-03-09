@@ -7,13 +7,13 @@ iniciar();
     - manzanas con un valor 10
     - fresas con valor a 5
     - frutas como suma de las dos variables anteriores
-/** */
+*/
 
 const manzanas = 10;
 const fresas = 5;
 const frutas = fresas + manzanas;
 
-/** */
+/* */
 export { manzanas, fresas, frutas }
 finalizar(this);
 

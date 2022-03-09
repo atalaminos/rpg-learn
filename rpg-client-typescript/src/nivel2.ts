@@ -8,8 +8,7 @@ iniciar();
     - girarArriba
     - moverIzquierda
     - girarIzquierda
-
-/** */
+*/
 
 girarIzquierda();
 moverIzquierda();
@@ -50,7 +49,7 @@ moverIzquierda();
 moverIzquierda();
 moverIzquierda();
 
-/** */
+/* */
 finalizar(this);
 
 

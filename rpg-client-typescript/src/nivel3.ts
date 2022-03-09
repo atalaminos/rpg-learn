@@ -4,8 +4,7 @@ iniciar();
 
 /*
   Repite el nivel anterior pero utilizando funciones
-
-/** */
+*/
 
 function moverAHuerto() {
 
@@ -51,7 +50,7 @@ function moverAHuerto() {
 
 moverAHuerto();
 
-/** */
+/* */
 finalizar(this);
 
 

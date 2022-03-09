@@ -3,7 +3,6 @@ import { CONSTANTS } from '../utilidades/constants';
 
 
 export const iniciar = () => {
-  acciones.accion();
   acciones.reset();
   acciones.aparecerCultivo(
     CONSTANTS.HUERTO_LUGAR_H1, 

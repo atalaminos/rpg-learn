@@ -105,7 +105,7 @@ function obtenerElementoDeInventarioPrivado(args) {
   const variable = args.variable;
   const cb = args.cb;
   axios
-  .delete(`${HOST}${RUTAS.MENU_INVENTARIO_ELEMENTO}/${variable}`, {})
+  .get(`${HOST}${RUTAS.MENU_INVENTARIO_ELEMENTO}/${variable}`, {})
   .then(res => {
     if (cb) cb(res)
   });

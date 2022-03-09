@@ -2,7 +2,6 @@ import * as acciones from '../utilidades/acciones'
 
 
 export const iniciar = () => {
-  acciones.accion();
   acciones.reset();
 }
 
