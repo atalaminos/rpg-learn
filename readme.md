@@ -13,7 +13,7 @@ npm install
 npm run dev
 ```
 
-## Rpg-client-typescipt
+## Rpg-client-typescript
 
 - Requirements:
   - Node.js < 15.0
