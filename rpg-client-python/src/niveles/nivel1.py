@@ -2,10 +2,8 @@ from typing import Dict
 
 from src.utilidades.acciones import *
 
-
 def iniciar():
     reset()
-
 
 def finalizar(data: Dict):
 

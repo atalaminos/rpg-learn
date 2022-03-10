@@ -1,26 +1,21 @@
-import http
+import requests
 
 from src.utilidades import acciones
 
 
 def get(ruta: str):
-    connection = http.client.HTTPSConnection(acciones.HOST)
-    connection.request("GET", ruta)
-    response = connection.getresponse()
-    connection.close()
-    return response
+    r = requests.get(acciones.HOST + ruta)
+    return r.text
 
 def post(ruta: str, body: str = None):
-    conn = http.client.HTTPSConnection(acciones.HOST)
 
-    headers = {'Content-type': 'application/x-www-form-urlencoded'}
-    conn.request('POST', ruta, body, headers)
-    response = conn.getresponse()
-    return response
+    body= body if body is None else body.encode("utf-8")
+    r = requests.post(acciones.HOST + ruta,
+                      data=body,
+                      headers={'Content-Type': 'application/x-www-form-urlencoded'})
+
+    return r.text
 
 def delete(ruta: str):
-    connection = http.client.HTTPSConnection(acciones.HOST)
-    connection.request("DELETE", ruta)
-    response = connection.getresponse()
-    connection.close()
-    return response
+    r = requests.delete(acciones.HOST + ruta)
+    return r.text

@@ -61,8 +61,7 @@ java -cp bin main.Nivel1
 - Instructions:
 
 ```bash
-cd rpg-client-python
-pip install -r requirements
+cd rpg-client-java
 cd src
 python nivel1.py
 ```
