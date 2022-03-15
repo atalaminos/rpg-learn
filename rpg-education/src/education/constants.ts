@@ -11,5 +11,6 @@ export const CONSTANTS = {
   HUERTO_CULTIVO_ZANAHORIA: 'zanahoria',
   HUERTO_CULTIVO_LECHUGA: 'lechuga',
   HUERTO_CULTIVO_CALABAZA: 'calabaza',
-  HUERTO_CULTIVO_TIERRA: 'tierra'
+  HUERTO_CULTIVO_TIERRA: 'tierra',
+  HUERTO_CULTIVO_TALLO: 'tallo'
 } 
